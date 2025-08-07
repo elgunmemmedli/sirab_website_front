@@ -1,0 +1,19 @@
+
+ul li{
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+}
+
+ul li::after{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 24px;
+    height: 24px;
+    content: "";
+    background-image: url('list-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
