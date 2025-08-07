@@ -10,8 +10,8 @@ ul li::after{
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     content: "";
     background-image: url('list-icon.svg');
     background-repeat: no-repeat;
